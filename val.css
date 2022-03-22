@@ -1,0 +1,11 @@
+.val {
+    font-family: cursive;
+    border: 1px solid red;
+    width:30%;
+    background-color: plum;
+    font-size: larger;
+    text-align: left;
+    display: flex;
+    justify-content: end;
+}
+

@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+.text2 {
+  color: #d5e2d6;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: cursive;
+  text-align: center;
+  border: 3px solid green;
+  text-shadow: 1px 1px #4a744d, 2px 2px #4a744d, 3px 3px #4a744d,
+    4px 4px #4a744d, 5px 5px #4a744d, 6px 6px #4a744d, 7px 7px #4a744d,
+    8px 8px #4a744d, 9px 9px #4a744d, 10px 10px #4a744d, 11px 11px #4a744d,
+    12px 12px #4a744d, 13px 13px #4a744d, 14px 14px #4a744d, 15px 15px #4a744d,
+    16px 16px #4a744d, 17px 17px #4a744d, 18px 18px #4a744d, 19px 19px #4a744d,
+    20px 20px #4a744d, 21px 21px #4a744d, 22px 22px #4a744d, 23px 23px #4a744d,
+    24px 24px #4a744d, 25px 25px #4a744d, 26px 26px 6px #06520c;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+
+.text {
+  color: #d5e2d6;
+  font-size: 40px;
+  font-family: cursive;
+  text-align: center;
+  border: 3px solid green;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+
+  text-shadow: 1px 1px #4a744d, 2px 2px #4a744d, 3px 3px #4a744d,
+    4px 4px #4a744d, 5px 5px #4a744d, 6px 6px #4a744d, 7px 7px #4a744d,
+    8px 8px #4a744d, 9px 9px #4a744d, 10px 10px #4a744d, 11px 11px #4a744d,
+    12px 12px #4a744d, 13px 13px #4a744d, 14px 14px #4a744d, 15px 15px #4a744d,
+    16px 16px #4a744d, 17px 17px #4a744d, 18px 18px #4a744d, 19px 19px #4a744d,
+    20px 20px #4a744d, 21px 21px #4a744d, 22px 22px #4a744d, 23px 23px #4a744d,
+    24px 24px #4a744d, 25px 25px #4a744d, 26px 26px 6px #06520c;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.box {
+  width: 60%;
+  height: 60%;
+  border: 1px solid red;
+  filter: blur(3px);
+}
+
+.box img {
+  width: 100%;
+  height: 100%;
+}
+
+.box img:hover {
+  box-shadow: 0 0 2px 1px rgba(186, 0, 0, 0.5);
+  box-shadow: 20px 20px 20px 10px red;
+}
+
+body {
+  /* background-color: plum; */
+  background-color:black;
+}
+
+.afro3 {
+  position: absolute;
+}
+
+.afro3 >span {
+  position: absolute;
+  top: 50%;
+
+}
+
+.afro4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.afro5 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.afro6 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.afro7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*hover for each picture*/
+
+.afro3 img:hover {
+  box-shadow: 0 0 2px 1px rgba(186, 0, 0, 0.5);
+  box-shadow: 20px 20px 20px 10px yellow;
+}
+
+.afro4 img:hover {
+  box-shadow: 0 0 2px 1px rgba(186, 0, 0, 0.5);
+  box-shadow: 20px 20px 20px 10px yellow;
+}
+
+.afro5 img:hover {
+  box-shadow: 0 0 2px 1px rgba(186, 0, 0, 0.5);
+  box-shadow: 20px 20px 20px 10px yellow;
+}
+
+.afro6 img:hover {
+  box-shadow: 0 0 2px 1px rgba(186, 0, 0, 0.5);
+  box-shadow: 20px 20px 20px 10px yellow;
+}
+
+.afro7 img:hover {
+  box-shadow: 0 0 2px 1px rgba(186, 0, 0, 0.5);
+  box-shadow: 20px 20px 20px 10px yellow;
+}
+
+.main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
